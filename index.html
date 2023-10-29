@@ -27,27 +27,69 @@
                         <div class="nav-links">
                         <a href="index.html" class="nav-link">Home</a>
                         <a href="about.html" class="nav-link">About</a>
-                        <a href="menu.html" class="nav-link">Menu</a>
+                        <a href="menu.html" class="nav-link">Recipes</a>
                     <div class="nav-link contact-link">
                         <a href="contact.html" class="btn">Contact</a>
                     </div>
             </nav>
             <!-- ================================= end of navbar===================================== -->
         </header>
-        
-        <main>
-           
-            <div class="main-content">
-                <img class="main-image" src="./assets/img/recipe.jpg "/>
-                <ul class="recipes-list">
-                    <li><a href="./assets/recipes/lasagna.html">Lasagna recipe</a></li>
-                    <li><a href="./assets/recipes/easypancakes.html">Easy Pancakes recipe</a></li>
-                    <li><a href="./assets/recipes/coffee.html">Easy Iced Coffee</a></li>
-                </ul>
-            
-            </div>
+        <!-- ====================================main ===============================================-->
+        <main class="main">
+            <!-- =================================header ==============================================-->
+            <header class="hero">
+                <div class="hero-container">
+                    <div class="hero-text">
+                        <h1>Odin Recipes</h1>
+                        <h4>Lorem ipsum dolor sit amet.</h4>
+                    </div>
+                </div>
+            </header>
+            <!-- =================================end of header ======================================= -->
+
+            <section class="menu-container">
+                <!-- =============================recipes-container ======================================= -->
+                <div class="recipes-container">
+                    <h4>Featured Recipes</h4>
+                    <div class="recipe-list">
+                        <a href="./assets/recipes/lasagna.html">Lasagna</a>
+                        <a href="./assets/recipes/easypancakes.html">Pancakes</a>
+                        <a href="./assets/recipes/coffee.html">Coffee</a>
+                    </div>
+                </div>
+                <!-- ============================== end of recipes-container ===============================-->
+
+                <!-- =============================recipes-grid ==============================================-->
+                <div class="grid-container">
+                    <!--single recipe-->
+                    <a href="./assets/recipes/lasagna.html" class="recipe">
+                        <img src="./assets/img/recipe-1.jpeg" alt="food" class="img recipe-img"/>
+                        <h5>Lasagna</h5>
+                        <p>Prep : 15min | Cook: 5min.</p>
+                    </a>
+                    <!--single recipe-->
+                    <a href="./assets/recipes/easypancakes.html" class="recipe">
+                        <img src="./assets/img/recipe-2.jpeg" alt="food" class="img recipe-img"/>
+                        <h5>Pancakes</h5>
+                        <p>Prep : 15min | Cook: 5min.</p>
+                    </a>
+                    <!--single recipe-->
+                    <a href="./assets/recipes/coffee.html" class="recipe">
+                        <img src="./assets/img/recipe-3.jpeg" alt="food" class="img recipe-img"/>
+                        <h5>Coffee</h5>
+                        <p>Prep : 15min | Cook: 5min.</p>
+                    </a>
+                </div>
+               
+            </section>
+
+
             
         </main>
-        <footer></footer>
+        <footer class="page-footer">
+            <p> &copy; <span>2023</span>
+            Built proudly by <a href="#">Davis Muchiri</a>
+            </p>
+        </footer>
     </body>
 </html>
