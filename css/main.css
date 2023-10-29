@@ -227,3 +227,37 @@ ul{
     margin-bottom: 0.25rem;
     margin-top:-1rem;
 }
+
+/* 
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Navbar 
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+*/
+.header-image{
+    height:80px;
+    width:80px;
+}
+.navheader{
+    height:6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.nav-link{
+    margin-right:50px;
+    font-size:20px;
+}
+.nav-link:hover{
+    color:var(--primary-500);
+}
+.nav-links{
+    display: flex;
+    width:100%;
+    margin-left: 550px;
+    align-items: center;
+    justify-content: space-between;
+}
+.contact-link a{
+    padding:0.15rem 1rem;
+}
+
